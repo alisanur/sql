@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Stars Coffee</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+        <title>Stars Coffee</title>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+          integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      </head>
+    
+<body>
+    <header>
+        <div class="logo">
+          <a href="#"
+            ><b>Stars <span>Coffee</span></b></a
+          >
+        </div>
+  
+        <nav>
+          <ul>
+            <li>
+              <a href="#menu"><b>Menu</b></a>
+            </li>
+            <li>
+              <a href="#shop"><b>Shop</b></a>
+            </li>
+            <li>
+              <a href="buat.php"><b>pesan</b></a>
+            </li>
+            <li>
+              <a href="database_user.php"><b>Profil</b></a>
+            </li>
+            <button id="dark-mode-toggle">
+              <i class="fa-solid fa-sun"></i>
+            </button>
+          </ul>
+        </nav>
+      </header>
+
+      <div id="content" class="content">
+        <h2>Selamat datang Di Stars Coffee</h2>
+      </div>
+  
+      <div class="menu" id="menu">
+        <div class="menu-header">
+          <h3>Menu</h3>
+          <h4>Stars Coffee Menu</h4>
+        </div>
+        <div class="menu-content">
+          <div class="hot-coffees">
+            <div class="hot-coffees-image">
+              <img src="img/hot-coffees.jpg" alt="" />
+            </div>
+            <div class="hot-coffees-body">
+              <h2>Hot Coffees</h2>
+            </div>
+          </div>
+          <div class="cold-coffees">
+            <div class="cold-coffees-image">
+              <img src="img/cold1.jpg" alt="" />
+            </div>
+            <div class="cold-coffees-body">
+              <h2>Cold Coffees</h2>
+            </div>
+          </div>
+          <div class="frappucino-coffees">
+            <div class="frappucino-coffees-image">
+              <img src="img/frappuccino.jpg" alt="" />
+            </div>
+            <div class="frappucino-coffees-body">
+              <h2>Frappucino Coffees</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="shop" id="shop">
+        <div class="shop-header">
+          <h3>Shop</h3>
+          <h4>Stars Coffee Drinks</h4>
+        </div>
+        <div class="shop-box">
+          <div class="item-1">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/caramel-macchiato.jpg" />
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                <label class="cash">Rp20.000.00</label>
+                <h3>Caramel Macchiato</h3>
+              </div>
+            </div>
+          </div>
+          <div class="item-2">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/flat-white.png" />
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <label class="cash">Rp30.000.00</label>
+                <h3>Flat White</h3>
+              </div>
+            </div>
+          </div>
+          <div class="item-3">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/chocolate-frappuccino.png" />
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                <label class="cash">Rp27.000.00</label>
+                <h3>Chocolate Frappucino</h3>
+              </div>
+            </div>
+          </div>
+          <div class="item-4">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/frappe.jpg" />
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <label class="cash">Rp20.000.00</label>
+                <h3>Frappe</h3>
+              </div>
+            </div>
+          </div>
+          <div class="item-5">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/caffe-mocha.png" />
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                <label class="cash">Rp30.000.00</label>
+                <h3>Caffe Mocha</h3>
+              </div>
+            </div>
+          </div>
+          <div class="item-6">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/vanilla-frappuccino.jpg" />
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <label class="cash">Rp35.000.00</label>
+                <h3>Vanilla Frappucino</h3>
+              </div>
+            </div>
+          </div>
+          <div class="item-7">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/white-chocolate-mocha.jpg" />
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+                <label class="cash">Rp30.000.00</label>
+                <h3>White Chocolate Mocha</h3>
+              </div>
+            </div>
+          </div>
+          <div class="item-8">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/ice-latte.jpg" />
+              </div>
+              <div class="card-body">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <label class="cash">Rp25.000.00</label>
+                <h3>Ice Latte</h3>
+              </div>
+            </div>
+          </div>
+  
+</body>
+</html>
